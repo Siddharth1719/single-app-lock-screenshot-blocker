@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="chevronBgColor">#50ffffff</color>
+    <color name="colorAccent">#ff9c40</color>
+    <color name="colorAppDefault">#009688</color>
+    <color name="colorAppDefaultDark">#00796b</color>
+    <color name="colorAppWhite">#f4ffff</color>
+    <color name="colorCyanListClick">#d6c8f5f3</color>
+    <color name="colorListDivider">#89606060</color>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorSpinner">#363636</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="greyb0afad">#808080</color>
+
+</resources>

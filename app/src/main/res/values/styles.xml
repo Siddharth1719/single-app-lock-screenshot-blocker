@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorAccent">@color/colorAppDefault</item>
+        <item name="android:colorPrimary">@color/colorAppDefault</item>
+        <item name="android:colorPrimaryDark">@color/colorAppDefaultDark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+    <style name="AppTheme.DARK">
+        <item name="android:colorControlActivated">@color/colorWhite</item>
+        <item name="android:colorControlNormal">@color/colorWhite</item>
+    </style>
+    <style name="AppTheme.LIGHT">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:colorAccent">@color/colorAppDefault</item>
+        <item name="android:colorControlNormal">@color/colorAppDefault</item>
+        <item name="android:colorPrimary">#f4f4f4</item>
+        <item name="android:colorPrimaryDark">@color/colorAppDefaultDark</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FullScreenDialogStyle">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="CustomSwitchType1">
+
+    </style>
+
+</resources>

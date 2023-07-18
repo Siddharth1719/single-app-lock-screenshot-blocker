@@ -1,0 +1,41 @@
+package com.applock.singleapplock;
+
+public class IntentDataLabels {
+    public static final String ACCOUNT_HEADER_LABEL = "ACCOUNT_HEADER_LABEL";
+    public static final String ACCOUNT_NAME = "ACCOUNT_NAME";
+    public static final String ALLOW_NOTIFICATIONS = "ALLOW_NOTIFICATIONS";
+    public static final String BACKUP = "BACKUP";
+    public static final String CHANNEL_ID = "Totp Notification";
+    public static final String CLICKED_WIDGET_ID = "CLICKED_WIDGET_ID";
+    public static final String DATE = "DATE";
+    public static final String DATE_CREATED = "DATE_CREATED";
+    public static final String DATE_MODIFIED = "DATE_MODIFIED";
+    public static final String DIALOG_MESSAGE = "DIALOG_MESSAGE";
+    public static final String DIALOG_NEGATIVE_BTN = "DIALOG_NEGATIVE_BTN";
+    public static final String DIALOG_POSITIVE_BTN = "DIALOG_POSITIVE_BTN";
+    public static final String DIALOG_TITLE = "DIALOG_TITLE";
+    public static final String DYNAMIC_LIST = "DYNAMIC_LIST";
+    public static final String EDIT_KEY_MODE = "EDIT_KEY_MODE";
+    public static final String FILE_NAME = "FILE_NAME";
+    public static final String ICON_LABEL = "ICON_LABEL";
+    public static final String ICON_PATH = "ICON_PATH";
+    public static final String INTENT_FROM_NOTIFICATION_BAR = "INTENT_FROM_NOTIFICATION_BAR";
+    public static final String ISSUER_NAME = "ISSUER_NAME";
+    public static final String KEY = "KEY";
+    public static final String NOTIFICATION_ID = "NOTIFICATION_ID";
+    public static final String OLD_PIN = "OLD_PIN";
+    public static final String PICK_IMAGE = "PICK_IMAGE";
+    public static final String PIN = "PIN";
+    public static final String POSITION = "POSITION";
+    public static final String POSITION_IN_STATIC_LIST = "POSITION_IN_STATIC_LIST";
+    public static final String QR_SCAN_RESULT = "QR_SCAN_RESULT";
+    public static final String RESTORE = "RESTORE";
+    public static final String SECURITY_TYPE = "SECURITY_TYPE";
+    public static final String SET_ICON_FROM_DRAWABLE = "SET_ICON_FROM_DRAWABLE";
+    public static final String SYNC = "SYNC";
+    public static final String SYNCED_LIST = "SYNCED_LIST";
+    public static final String TOTP_DATA = "TOTP_DATA";
+    public static final String TUTORIAL_COMPLETE_SUCCESSFULLY = "TUTORIAL_COMPLETE_SUCCESSFULLY";
+    public static final String TYPE = "TYPE";
+    public static final String WIDGET_FLAG = "WIDGET_FLAG";
+}

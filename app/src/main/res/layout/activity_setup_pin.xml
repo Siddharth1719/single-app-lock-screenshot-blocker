@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include
+        android:id="@+id/activity_setup_pin_toolbar"
+        layout="@layout/activity_setup_pin_custom_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/activity_setup_pin_main_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_setup_pin_toolbar"
+        android:layout_margin="2dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp">
+
+        <TextView
+            android:id="@+id/activity_setup_pin_main_wrapper_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="setup_pin_activity_disclaimer_title"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activity_setup_pin_main_wrapper_disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_setup_pin_main_wrapper_heading"
+            android:layout_marginStart="25dp"
+            android:layout_marginEnd="25dp"
+            android:text="setup_pin_activity_disclaimer"
+            android:textAlignment="center"
+            android:textSize="14dp" />
+
+        <com.applock.singleapplock.Pinview
+            android:id="@+id/pinview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            app:cursorVisible="true"
+            app:inputType="text"
+            app:password="true"
+            app:pinBackground="@drawable/rounded_ractangle_pin_box"
+            app:pinHeight="60dp"
+            app:pinLength="4"
+            app:pinWidth="60dp" />
+    </RelativeLayout>
+</RelativeLayout>

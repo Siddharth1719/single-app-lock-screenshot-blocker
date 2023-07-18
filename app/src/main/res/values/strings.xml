@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">single app lock</string>
+
+    <string name="replace_previous_credentials_dialog_message">This action will remove any previously saved Fingerprints/PINs from the application\'s database. This cannot be undone!</string>
+    <string name="replace_previous_credentials_dialog_negative_btn">Cancel</string>
+    <string name="replace_previous_credentials_dialog_positive_btn">OK</string>
+    <string name="replace_previous_credentials_dialog_title">Confirm Replace</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="authentication_success_msg_string">Success!</string>
+    <string name="authentication_failed_msg">Authentication failed</string>
+    <string name="search_account_app_bar_string">Search account...</string>
+    <string name="string_label_entertainment">entertainment</string>
+    <string name="string_label_favourtite">favourite</string>
+    <string name="string_label_other">other</string>
+    <string name="string_label_personal">personal</string>
+    <string name="string_label_social">social</string>
+    <string name="string_label_tools">tools</string>
+    <string name="string_label_work">work</string>
+    <string name="toast_error_text">Some error occurred</string>
+    <string name="toast_permission_denied">Permission Denied</string>
+    <string name="general_settings_activity_title">General Settings</string>
+    <string name="general_settings_security_icon">security_icon</string>
+    <string name="general_settings_security">Security</string>
+    <string name="app_security_subheading_string">Add an extra layer of security to access the app.</string>
+    <string name="general_settings_prevent_screenshot_label">Screen security</string>
+    <string name="screenshot_prevent_subheading_string">Block screenshots and other attempts to capture the screen throughout the app.</string>
+    <string name="screenshot_disable_string">Screen security disabled</string>
+    <string name="screenshot_enable_string">Screen security enabled</string>
+
+    <string name="navigation_drawer_about_us_text">Share app</string>
+    <string name="navigation_drawer_accounts_text">Accounts</string>
+    <string name="navigation_drawer_add_account_text">Add Account</string>
+    <string name="navigation_drawer_add_new_key">Add Key</string>
+    <string name="navigation_drawer_auto_sync">Cloud Sync</string>
+    <string name="navigation_drawer_backup_restore_text">Backup/Restore</string>
+    <string name="navigation_drawer_browser_extension">Browser Extension</string>
+    <string name="navigation_drawer_check_updates_text">Check for Updates</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_dark_theme_text">Dark Theme</string>
+    <string name="navigation_drawer_enter_key_manually_text">Enter Key Manually</string>
+    <string name="navigation_drawer_export_data_text">Export Data</string>
+    <string name="navigation_drawer_faq_text">FAQ</string>
+    <string name="navigation_drawer_header_name_placeholder">TOTP Authenticator</string>
+    <string name="navigation_drawer_home_text">Home</string>
+    <string name="navigation_drawer_import_data_text">Import Data</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_other_text">Other</string>
+    <string name="navigation_drawer_rate_us_text">Rate Us</string>
+    <string name="navigation_drawer_scan_code_text">Scan QR Code</string>
+    <string name="navigation_drawer_settings_text">Settings</string>
+    <string name="navigation_drawer_share_app_text">About</string>
+    <string name="navigation_drawer_write_to_us_text">Contact Us</string>
+    <string name="next_string">NEXT</string>
+
+</resources>
