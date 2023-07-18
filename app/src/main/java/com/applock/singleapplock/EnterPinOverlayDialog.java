@@ -14,10 +14,6 @@ import java.util.Objects;
 
 public class EnterPinOverlayDialog extends DialogFragment {
     private Context context;
-    private EnterPinCustomEditText editText1;
-    private EnterPinCustomEditText editText2;
-    private EnterPinCustomEditText editText3;
-    private EnterPinCustomEditText editText4;
     private EnterPinOverlayDialogInterface enterPinOverlayDialogInterface;
     private String oldPin;
     private String pin;
@@ -48,8 +44,6 @@ public class EnterPinOverlayDialog extends DialogFragment {
             this.oldPin = arguments.getString(IntentDataLabels.OLD_PIN);
         }
         this.toastMsgTextView = (TextView) inflate.findViewById(R.id.enter_pin_dialog_toast_msg_text_view);
-        TextView customTextViewOpenSansBold = (TextView) inflate.findViewById(R.id.enter_pin_dialog_back_btn);
-        TextView customTextViewOpenSansBold2 = (TextView) inflate.findViewById(R.id.enter_pin_dialog_proceed_btn);
         return inflate;
     }
 

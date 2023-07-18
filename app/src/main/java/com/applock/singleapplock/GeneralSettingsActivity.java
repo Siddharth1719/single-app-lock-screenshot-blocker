@@ -34,15 +34,6 @@ public class GeneralSettingsActivity extends BaseActivity implements View.OnClic
         this.context = this;
         this.sharedPrefsHelper = new SharedPrefsHelper();
         ImageView imageView = (ImageView) findViewById(R.id.activity_general_settings_toolbar_close_button);
-        /*lock = (LinearLayout) findViewById(R.id.security_settings_layout);
-
-        lock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                SwitchCompat switchCompat5 = securitySwitch;
-                switchCompat5.setChecked(!switchCompat5.isChecked());
-            }
-        });*/
 
         initViews();
         String str = (String) this.sharedPrefsHelper.getSharedPrefs(this.context, SharedPrefsKeys.DEVICE_SYNC_PRIORITY, "");
@@ -103,7 +94,7 @@ public class GeneralSettingsActivity extends BaseActivity implements View.OnClic
 
     private void gotoMain() {
         Intent intent = new Intent(this.context, HomeActivity.class);
-        intent.setFlags(67108864);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
     }
@@ -147,7 +138,7 @@ public class GeneralSettingsActivity extends BaseActivity implements View.OnClic
     }
 
     private void refreshActivity() {
-        getIntent().setFlags(65536);
+        getIntent().setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
         finish();
         overridePendingTransition(0, 0);
         startActivity(getIntent());

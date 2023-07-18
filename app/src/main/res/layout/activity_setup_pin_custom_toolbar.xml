@@ -15,13 +15,13 @@
 
         <ImageView
             android:id="@+id/activity_setup_pin_toolbar_close_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentStart="true"
             android:layout_centerVertical="true"
             android:padding="18dp"
             android:src="@drawable/ic_baseline_close_24"
-             />
+            app:tint="@color/white" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -30,17 +30,18 @@
             android:layout_centerVertical="true"
             android:text="SETUP PIN"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold" />
+             />
 
         <ImageView
             android:id="@+id/activity_setup_pin_toolbar_check_button"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
             android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
             android:padding="18dp"
-            android:src="@drawable/ic_check"/>
+            android:src="@drawable/ic_check"
+            app:tint="@color/white" />
     </RelativeLayout>
 </androidx.appcompat.widget.Toolbar>

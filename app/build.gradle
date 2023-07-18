@@ -37,7 +37,6 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
     implementation 'androidx.biometric:biometric:1.1.0'
-    // https://mvnrepository.com/artifact/com.multidots/fingerprint-auth
     implementation 'com.multidots:fingerprint-auth:1.0'
     implementation 'com.scottyab:aescrypt:0.0.1'
 

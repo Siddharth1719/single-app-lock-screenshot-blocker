@@ -100,9 +100,6 @@ public class HomeActivity extends BaseActivity implements NavigationView.OnNavig
     @Override
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         switch (menuItem.getItemId()) {
-           /* case R.id.nav_about_us:
-                *//*startActivity(new Intent(this.context, AboutUsActivity.class));*//*
-                break;*/
             case R.id.nav_home:
                 if (!getClass().getSimpleName().equals("HomeActivity")) {
                     reloadActivity(false);

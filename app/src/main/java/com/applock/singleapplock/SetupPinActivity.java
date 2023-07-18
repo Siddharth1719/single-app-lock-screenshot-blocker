@@ -14,8 +14,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ContextThemeWrapper;
 import androidx.appcompat.widget.Toolbar;
 
-
-
 public class SetupPinActivity extends AppCompatActivity implements View.OnClickListener {
     private Context context;
     private Pinview pinview;
@@ -42,13 +40,6 @@ public class SetupPinActivity extends AppCompatActivity implements View.OnClickL
         launchSetupPinDialog(pinview2.getValue());
     }
 
-    private void closeKeyBoard() {
-        InputMethodManager inputMethodManager = (InputMethodManager) getSystemService("input_method");
-        if (inputMethodManager != null) {
-            inputMethodManager.hideSoftInputFromWindow(this.pinview.getWindowToken(), 0);
-        }
-    }
-
     public void onBackPressed() {
         gotoMain();
     }
@@ -64,7 +55,6 @@ public class SetupPinActivity extends AppCompatActivity implements View.OnClickL
             setResult(0, intent);
         }
         gotoMain();
-        /*finish();*/
     }
 
     private void launchSetupPinDialog(String str) {
@@ -81,13 +71,13 @@ public class SetupPinActivity extends AppCompatActivity implements View.OnClickL
         builder.create().show();
     }
 
-    public /* synthetic */ void lambda$launchSetupPinDialog$1$SetupPinActivity(String str, DialogInterface dialogInterface, int i) {
+    public void lambda$launchSetupPinDialog$1$SetupPinActivity(String str, DialogInterface dialogInterface, int i) {
         goBack(true, str);
     }
 
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.activity_setup_pin_toolbar_check_button /*2131361920*/:
+            case R.id.activity_setup_pin_toolbar_check_button:
                 Pinview pinview2 = this.pinview;
                 if (pinview2 == null) {
                     return;
@@ -96,7 +86,7 @@ public class SetupPinActivity extends AppCompatActivity implements View.OnClickL
                     launchSetupPinDialog(this.pinview.getValue());
                     return;
                 } else {
-                    Toast.makeText(this.context, "Pin must be contain 4 digit", 0).show();
+                    Toast.makeText(this.context, "Pin must be contain 4 digit", Toast.LENGTH_SHORT).show();
                     return;
                 }
             case R.id.activity_setup_pin_toolbar_close_button :
@@ -109,7 +99,7 @@ public class SetupPinActivity extends AppCompatActivity implements View.OnClickL
 
     private void gotoMain() {
         Intent intent = new Intent(this.context, GeneralSettingsActivity.class);
-        intent.setFlags(67108864);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
         finish();
     }

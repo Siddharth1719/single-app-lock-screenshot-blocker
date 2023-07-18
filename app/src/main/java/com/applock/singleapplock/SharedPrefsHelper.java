@@ -7,10 +7,9 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class SharedPrefsHelper {
-    private final String FILE_NAME = "TOTP_Authenticator_Preferences";
 
     public void setSharePrefs(Context context, String str, Object obj) {
-        SharedPreferences.Editor edit = context.getSharedPreferences("TOTP_Authenticator_Preferences", 0).edit();
+        SharedPreferences.Editor edit = context.getSharedPreferences("Single_App_Lock", 0).edit();
         if (obj instanceof String) {
             edit.putString(str, (String) obj);
         } else if (obj instanceof Integer) {
@@ -28,7 +27,7 @@ public class SharedPrefsHelper {
     }
 
     public Object getSharedPrefs(Context context, String str, Object obj) {
-        SharedPreferences sharedPreferences = context.getSharedPreferences("TOTP_Authenticator_Preferences", 0);
+        SharedPreferences sharedPreferences = context.getSharedPreferences("Single_App_Lock", 0);
         if (obj instanceof String) {
             return sharedPreferences.getString(str, (String) obj);
         }
@@ -48,23 +47,23 @@ public class SharedPrefsHelper {
     }
 
     public void remove(Context context, String str) {
-        SharedPreferences.Editor edit = context.getSharedPreferences("TOTP_Authenticator_Preferences", 0).edit();
+        SharedPreferences.Editor edit = context.getSharedPreferences("Single_App_Lock", 0).edit();
         edit.remove(str);
         edit.apply();
     }
 
     public void clear(Context context) {
-        SharedPreferences.Editor edit = context.getSharedPreferences("TOTP_Authenticator_Preferences", 0).edit();
+        SharedPreferences.Editor edit = context.getSharedPreferences("Single_App_Lock", 0).edit();
         edit.clear();
         edit.apply();
     }
 
     public boolean contains(Context context, String str) {
-        return context.getSharedPreferences("TOTP_Authenticator_Preferences", 0).contains(str);
+        return context.getSharedPreferences("Single_App_Lock", 0).contains(str);
     }
 
     public Map<String, ?> getAll(Context context) {
-        return context.getSharedPreferences("TOTP_Authenticator_Preferences", 0).getAll();
+        return context.getSharedPreferences("Single_App_Lock", 0).getAll();
     }
 
 

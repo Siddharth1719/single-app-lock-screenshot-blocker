@@ -18,18 +18,6 @@ public class ToastMaker {
         }
     }
 
-    public void errorToast() {
-        makeToast(this.context.getResources().getString(R.string.toast_error_text), 0);
-    }
-
-    public void permissionDenied() {
-        makeToast(this.context.getResources().getString(R.string.toast_permission_denied), 0);
-    }
-
-    public void qrCodeError() {
-        makeToast("Unable to read or process QR code", 0);
-    }
-
     public static void showToast(Context context2, String str) {
         Toast.makeText(context2, str, 0).show();
     }

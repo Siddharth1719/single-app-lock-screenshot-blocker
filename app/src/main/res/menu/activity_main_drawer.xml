@@ -6,47 +6,9 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/nav_ico_home_128x128"
             android:title="@string/navigation_drawer_home_text" />
-        <!--<item
-            android:id="@+id/nav_drive_sync"
-            android:icon="@drawable/icon_drive_sync"
-            android:title="@string/navigation_drawer_auto_sync" />
-        <item
-            android:id="@+id/nav_browser_extension"
-            android:icon="@drawable/icon_chrome_line"
-            android:title="@string/navigation_drawer_browser_extension" />
-        <item
-            android:id="@+id/nav_offline_backup"
-            android:icon="@drawable/icon_nav_import_export_arrow_2"
-            android:title="@string/navigation_drawer_backup_restore_text" />
-        <item
-            android:id="@+id/nav_sync_history_enable"
-            android:icon="@drawable/ic_history_black_24dp"
-            android:title="@string/general_settings_sync_history_string" />-->
         <item
             android:id="@+id/nav_settings"
             android:icon="@drawable/nav_ico_settings_128x128"
             android:title="@string/navigation_drawer_settings_text" />
-       <!-- <item
-            android:id="@+id/nav_faq"
-            android:icon="@drawable/nav_ico_faq_128x128"
-            android:title="@string/navigation_drawer_faq_text" />-->
     </group>
-    <!--<group android:id="@+id/sub_section">
-        <item
-            android:id="@+id/nav_about_us"
-            android:icon="@drawable/nav_ico_about_128x128"
-            android:title="@string/navigation_drawer_share_app_text" />
-        <item
-            android:id="@+id/nav_write_to_us"
-            android:icon="@drawable/app_icon_contact_us_128x"
-            android:title="@string/navigation_drawer_write_to_us_text" />
-       &lt;!&ndash; <item
-            android:id="@+id/nav_share_app"
-            android:icon="@drawable/ic_share_black_24dp"
-            android:title="@string/navigation_drawer_about_us_text" />&ndash;&gt;
-       &lt;!&ndash; <item
-            android:id="@+id/nav_rate_us"
-            android:icon="@drawable/nav_ico_rate_us_128x128"
-            android:title="@string/navigation_drawer_rate_us_text" />&ndash;&gt;
-    </group>-->
 </menu>

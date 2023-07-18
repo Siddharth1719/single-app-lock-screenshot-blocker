@@ -58,7 +58,7 @@ public class EnterFingerprintOverlayDialog extends DialogFragment implements Fin
     }
 
     public void onAuthFailed(int i, String str) {
-        placeToastMessage("Authentication error \nretry", true);
+        placeToastMessage("Single App Lock error \nretry", true);
         this.fingerprintImageView.setImageResource(R.drawable.activity_ico_fingerprint_incorrect_192x192);
     }
 
@@ -96,7 +96,7 @@ public class EnterFingerprintOverlayDialog extends DialogFragment implements Fin
         return inflate;
     }
 
-    public /* synthetic */ void lambda$onCreateView$0$EnterFingerprintOverlayDialog(View view) {
+    public void lambda$onCreateView$0$EnterFingerprintOverlayDialog(View view) {
         this.enterFingerprintOverlayDialogInterface.enterFingerprintOverlayDialogBackBtnClicked();
     }
 
